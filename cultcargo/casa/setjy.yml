@@ -11,11 +11,13 @@ cabs:
         inputs:
             _use: lib.params.casa.ms-field-spw-inputs
             standard:
-                dtype: str 
-                default: 'Perley-Butler 2017'
+                dtype: str
                 info: Which standard to use 
-            usescratch:
+            scalebychan:
+                info: Scale the flux density on a per channel basis or else on a per spw basis
                 dtype: bool
-                default: true
+            usescratch:
                 info: Will create if necessary and use the MODEL_DATA
+                dtype: bool
+                
                 

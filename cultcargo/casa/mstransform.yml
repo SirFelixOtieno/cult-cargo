@@ -65,7 +65,7 @@ cabs:
                info: Rest frequency to use for output.
                dtype: str 
             outframe:
-               info: Output reference frame (‘’=keep input frame).
+               info: Output reference frame (‘’=keep input frame)
                dtype: str 
             timespan:
                info: Span the timebin across scan, state or both.

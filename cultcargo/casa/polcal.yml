@@ -27,6 +27,9 @@ cabs:
             combine:
                 info: Data axes which to combine for solve. Options are 'obs', 'scan', 'spw', 'field', or any comma-separated combination
                 dtype: str 
+            smodel:
+                info: Point source Stokes parameters for source model (experimental).
+                dtype: List[float]
             preavg:
                 info: Pre-averaging interval (sec)
                 dtype: float
